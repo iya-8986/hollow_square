@@ -6,14 +6,13 @@
 def get_length():
     while True:
         try:
-            length = int(input(">> "))
+            length = int(input("Enter the side length of the square: "))
         except:
             continue
         else:
             return length
 
 
-print("Enter the side length of the square")
 length = get_length()
 
 #create the square layout
